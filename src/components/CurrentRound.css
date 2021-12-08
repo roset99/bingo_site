@@ -1,0 +1,36 @@
+.current-round-container{
+    
+    margin-left: 10em;
+    margin-right: 10em;
+}
+
+.selected{
+    background-color: aqua;
+    margin: 0;
+    border: 3px solid red;
+}
+.unselected{
+    margin: 0;
+    border: 3px solid red;
+}
+
+.show-current{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-auto-flow: column;
+}
+.hide-current{
+    display:none;
+}
+.current-button{
+    width: 70%;
+    height: 3em;
+    border: 3px solid;
+    border-radius: 0;
+    background-color: white;
+    margin-top: 1em;
+}
+.current-button:hover{
+    background-color: palegreen;
+}

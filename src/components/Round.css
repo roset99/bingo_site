@@ -1,0 +1,28 @@
+.round-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-auto-flow: column;
+}
+
+.selected{
+    background-color: aqua;
+    margin: 0;
+    border: 2px paleturquoise ;
+}
+.unselected{
+    margin: 0;
+
+    border: 2px paleturquoise ;
+}
+.button-round-card{
+    width: 70%;
+    height: 3em;
+    border: 3px solid;
+    border-radius: 0;
+    background-color: white;
+    margin-top: 1em;
+}
+.button-round-card:hover{
+    background-color: palegreen;
+}
